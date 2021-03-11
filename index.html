@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Web-Calculator</title>
+    <script src="script.js"></script>
+    <style type="text/css">
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        1st Number : <input type="text" id="firstNumber" /><br>
+        2nd Number: <input type="text" id="secondNumber" /><br><br>
+        <input type="button" onClick="addition()" Value="Addition" />
+        <input type="button" onClick="subtraction()" value="Subtraction"/> 
+        <input type="button" onClick="multiplication()" value="multiplication" />
+        <input type="button" onClick="division()" value="division" />
+
+
+
+
+        <div>select by element</div>
+    </form>
+    <p>The Result is : <br>
+        <span id="result"></span>
+    </p>
+</body>
+
+</html>
